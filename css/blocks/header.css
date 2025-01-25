@@ -1,0 +1,24 @@
+.header {
+    max-width: 1440px;
+    height: 119px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header__burger {
+    display: none;
+}
+
+.header__logo {
+    margin-left: 50px;
+}
+
+.header__nav {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    font-size: 17px;
+    margin-right: 70px;
+}

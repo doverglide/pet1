@@ -1,0 +1,659 @@
+@media (max-width: 1440px) {
+    .header {
+        height: 8.26vw;
+    }
+
+    .header__logo {
+        margin-left: 3.47vw;
+        width: 11.11vw;
+    }
+    
+    .header__nav {
+        margin-right: 4.86vw;
+        font-size: 1.18vw;
+        gap: 2.78vw;
+    }
+
+    main, footer {
+        width: 90.28vw;
+    }
+
+    .main-section__hero, .main-section__platforms {
+        margin-top: 2.78vw;
+    }
+
+    .main-section__hero-decor {
+        width: 4.72vw;
+        top: -1.81vw;
+        left: -1.81vw;
+    }
+
+    .main-section__content {
+        width: 36.81vw;
+        height: 42.40vw;
+        margin-left: 4.17vw;
+        margin-top: 20.42vw;
+    }
+
+    .main-section__description-block {
+        width: 36.53vw;
+        height: 18.60vw;
+    }
+
+    .main-section__hero-img {
+        width: 45.14vw;
+    }
+    
+
+    .main-section__description {
+        font-size: 4.86vw;
+    }
+
+    .main-section__underline {
+        width: 11.11vw;
+    }
+
+    .main-section__bold {
+        font-size: 5.56vw;
+        margin-left: 1.74vw;
+    }
+
+    .main-section__platforms-block {
+        width: 20.07vw;
+        height: 5vw;
+        margin-top: 6.25vw;
+    }
+
+    .main-section__logo {
+        width: 2.22vw;
+    }
+
+    .main-section__title {
+        margin-bottom: 1.18vw;
+        font-size: 1.04vw;
+    }
+
+    .main-section__list {
+        gap: 1.18vw;
+    }
+
+    .episode-section__header {
+        margin-top: 6.98vw;
+        height: 6.88vw;
+    }
+
+    .episode-section__title {
+        font-size: 4.44vw;
+        letter-spacing: 0.20vw;
+    }
+
+    .episode-section__header .btn {
+        width: 12.36vw;
+        margin-top: 1.64vw;
+    }
+
+    .btn {
+        font-size: 1.18vw;
+        height: 3.54vw;
+        padding: 0.83vw 1.04vw 0.83vw 1.39vw;
+        border-radius: 0.42vw;
+    }
+
+    .episode-section__cards {
+        margin-top: 2.78vw;
+        height: auto;
+        gap: 2.78vw;
+    }
+
+    .episode-section__card {
+        height: auto;
+        gap: 3.68vw;
+        padding: 2.78vw;
+        border-radius: 2.22vw;
+    }
+
+    .episode-section__img {
+        width: 27.01vw;
+    }
+
+    .episode-section__card-wrapper {
+        width: 54.03vw;
+    }
+
+    .episode-section__category  {
+        font-size: 1.25vw;
+        margin-bottom: 3.36vw;
+        padding: 0 1.11vw;
+        border-radius: 0.42vw;
+    }
+    
+    .episode-section__number {
+        font-size: 1.18vw;
+        margin-bottom: 1.22vw;
+    }
+
+    .episode-section__card-title {
+        font-size: 4.44vw;
+    }
+
+    .episode-section__description {
+        font-size: 1.53vw;
+        width: 52.57vw;
+        margin-top: 1.94vw;
+    }
+
+    .hero-section {
+        height: auto;
+        margin-top: 11.11vw;
+    }
+
+    .hero-section__arrow {
+        width: 7.78vw;
+        height: 7.78vw;
+        margin-top: 17.23vw;
+    }
+
+    .hero-section__caption {
+        margin-top: 1.39vw;
+        font-size: 1.25vw;
+    }
+
+    .hero-section__title {
+        font-size: 4.51vw;
+    }
+    
+    .hero-section__description {
+        font-size: 1.53vw;
+    }
+
+    .hero-section__description--primary {
+        margin-top: 1.94vw;
+    }
+    
+    .hero-section__description--secondary {
+        margin-top: 2.29vw;
+    }
+    
+    .hero-section__img {
+        width: 45.14vw;
+        margin-top: 16.94vw;
+    }
+
+    .form-section {
+        border-radius: 2.22vw;
+        height: 26.88vw;
+        margin: 6.94vw 0px;
+    }
+
+    .form-section__input {
+        border-radius: 0.42vw;
+    }
+
+    .form-section__inscription {
+        font-size: 1.25vw;
+        margin-left: 4.17vw;
+        margin-top: 4.11vw;
+    }
+    
+    .form-section__title {
+        font-size: 5vw;
+        margin-left: 4.17vw;
+    }
+
+    .form-section__decor {
+        width: 10.21vw;
+        height: 6.32vw;
+        bottom: -1.81vw;
+        left: -2.64vw;
+    }
+
+    .form-section__input {
+        border-radius: 6px;
+        width: 36.25vw;
+        padding: 1.81vw 1.39vw;
+    }
+
+    input[type="text"], input[type="email"] {
+        font-size: 1.67vw;
+    }
+
+    .form-section__input--name {
+        margin-top: 4.17vw;
+    }
+    
+    .form-section__input--email {
+        margin-top: 1.39vw;
+        margin-bottom: 2.01vw;
+    }
+
+    .reviews-section {
+        padding-top: 6.94vw;
+        margin-bottom: 6.94vw;
+        height: auto;
+        gap: 1.11vw;
+    }
+
+    .reviews-section__review {
+        font-size: 2.5vw;
+        margin-left: 3.47vw;
+        max-width: 22.01vw;
+    }
+
+    .reviews-section__card {
+        border-radius: 2.22vw;
+        max-width: 29.38vw;
+        width: 100%;
+        height: auto;
+        gap: 1.39vw;
+    }
+
+    .reviews-section__grade {
+        margin: 3.75vw 0px 0px 3.47vw;
+    }
+
+    .reviews-section__star {
+        width: 1.25vw;
+    }
+
+    .reviews-section__author {
+        font-size: 1.67vw;
+        margin-left: 3.47vw;
+        margin-bottom: 3.54vw;
+    }
+
+    .footer {
+        padding-top: 6.94vw;
+        margin-bottom: 6.94vw;
+        height: auto;
+    }
+
+    .footer__logo-and-socials {
+        max-width: 31.04vw;
+        gap: 1.39vw;
+    }
+
+    .footer__logo {
+        width: 15.56vw;
+        height: 3.19vw;
+    }
+
+    .footer__socials {
+        gap: 0.69vw;
+    }
+
+    .footer__social-link {
+        width: 1.67vw;
+    }
+
+    .footer__nav {
+        gap: 0.69vw;
+        max-width: 12.36vw;
+        font-size: 1.11vw;
+    }
+
+    .footer__resources {
+        gap: 0.69vw;
+        max-width: 12.36vw;
+        font-size: 1.11vw;
+    }
+
+    .footer__platforms {
+        gap: 1.18vw;
+    }
+
+    .footer__platform {
+        width: 2.22vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header__logo {
+        width: 13.11vw;
+    }
+
+    .header__nav {
+        font-size: 1em;
+    }
+
+    .main-section__title {
+        font-size: 1em;
+    }
+
+    .main-section__logo {
+        width: 3vw;
+    }
+
+    .episode-section__category {
+        font-size: 1em;
+        margin-bottom: 2.36vw;
+    }
+
+    .episode-section__number {
+        font-size: 1em;
+    }
+
+    .hero-section__caption {
+        font-size: 1em;
+    }
+
+    .form-section__inscription {
+        font-size: 1em;
+    }
+
+    .footer__social-link {
+        width: 2.3vw;
+    }
+
+    .footer__nav {
+        font-size: 1em;
+    }
+
+    .footer__resources {
+        max-width: 15.36vw;
+        font-size: 1em;
+    }
+
+    .footer__platform {
+        width: 3vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        height: 20vw;
+    }
+
+    .header__logo {
+        width: 20vw;
+    }
+
+    .header__burger {
+        width: 35px;
+        height: 30px;
+        margin-right: 5.21vw;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        gap: 8px;
+        cursor: pointer;
+    }
+
+    .header__burger:hover span{
+        background-color: #118DA8;
+    }
+
+    input[type=checkbox] {
+        display: none;
+    }
+
+    .header__burger span {
+        display: block;
+        height: 4px;
+        width: 100%;
+        background-color: white;
+        border-radius: 8px;
+        transition: .3s;
+    }
+
+    .header__burger input:checked ~ span:nth-of-type(1) {
+        transform: translateY(9.75px) rotate(45deg);
+    }
+
+    .header__burger input:checked ~ span:nth-of-type(2) {
+        opacity: 0;
+        width: 0%;
+    }
+
+    .header__burger input:checked ~ span:nth-of-type(3) {
+        transform: translateY(-13.95px) rotate(-45deg);
+    }
+
+    .header__nav {
+        display: none;
+        margin: 0;
+        position: absolute;
+        font-size: 2.34vw;
+    }
+
+    .btn {
+        font-size: 1.82vw;
+        height: 5.21vw;
+    }
+
+    .episode-section__header .btn {
+        width: auto;
+        height: 4.56vw;
+    }
+
+    .episode-section__description {
+        font-size: 2.08vw;
+    }
+
+    .hero-section__description {
+        font-size: 2.08vw;
+    }
+
+    .reviews-section__star {
+        width: 2vw;
+    }
+
+    .footer__social-link {
+        width: 3vw;
+    }
+
+    .footer__resources {
+        max-width: 22vw;
+        font-size: 2.08vw;
+    }
+
+    .footer__nav {
+        font-size: 2.08vw;
+    }
+
+    .footer__platform {
+        width: 3.5vw;
+    }
+}
+
+@media (max-width: 571px) {
+    .header__nav {
+        font-size: 3.4vw;
+    }
+
+    .header__link:nth-child(1) {
+        margin-top: 4.72vw;
+    }
+}
+
+@media (max-width: 531px) {
+    .header__logo {
+        width: 30vw;
+    }
+
+    .main-section {
+        flex-direction: column;
+    }
+
+    .main-section__hero, .main-section__platforms {
+        width: 100%;
+    }
+
+    .main-section__content {
+        margin: 0;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 7.55vw;
+        height: 25vw;
+    }
+
+    .main-section__hero-img {
+        width: 90vw;
+        height: 50vw;
+        object-fit: cover;
+        margin-top: 3.77vw;
+        border-radius: 6px;
+    }
+
+    .main-section__hero-decor {
+        width: 8vw;
+        top: -3vw;
+        left: -3vw;
+        margin-top: 3.77vw;
+    }
+
+    .main-section__description-block {
+        width: 45.28vw;
+        height: 21.4vw;
+    }
+
+    .main-section__description {
+        font-size: 5.66vw;
+    }
+
+    .main-section__title {
+        font-size: 3.77vw;
+    }
+
+    .main-section__platforms-block {
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
+    
+    .main-section__logo {
+        width: 4vw;
+    }
+
+    .episode-section__title {
+        font-size: 5.28vw;
+    }
+
+    .episode-section__header .btn {
+        height: auto;
+    }
+
+    .btn {
+        height: auto;
+        font-size: 2.64vw;
+    }
+
+    .episode-section__card {
+        flex-direction: column;
+    }
+
+    .episode-section__img {
+        width: 85vw;
+        height: 50vw;
+        object-fit: cover;
+    }
+
+    .episode-section__card-wrapper {
+        width: 85vw;
+    }
+
+    .episode-section__description {
+        font-size: 3.02vw;
+        width: 85vw;
+    }
+
+    .hero-section {
+        flex-direction: column;
+    }
+
+    .hero-section__arrow {
+        margin: 0;
+        transform: rotate(90deg);
+    }
+
+    .hero-section__description {
+        font-size: 3.02vw;
+    }
+
+    .hero-section__img {
+        width: 90vw;
+        height: 50vw;
+        object-fit: cover;
+        object-position: top;
+        margin-top: 10vw;
+        border-radius: 6px;
+    }
+
+    .form-section {
+        flex-direction: column;
+        height: auto;
+        padding: 2.78vw;
+    }
+
+    .form-section__inscription-wrapper {
+        width: auto;
+    }
+
+    .form-section__form {
+        width: auto;
+    }
+
+    .form-section__title {
+        margin: 0;
+    }
+
+    .form-section__inscription {
+        margin: 0;
+    }
+
+    input[type="text"], input[type="email"] {
+        font-size: 3.02vw;
+        width: 96%;
+    }
+
+    .form-section__decor {
+        bottom: -3vw;
+    }
+
+    .reviews-section__star {
+        width: 2.5vw;
+    }
+
+    .reviews-section__review, .reviews-section__author {
+        font-size: 3.02vw;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer__logo {
+        width: 30vw;
+        height: auto;
+    }
+
+    .footer__social-link {
+        width: 5vw;
+    }
+
+    .footer__nav, .footer__resources {
+        font-size: 3.77vw;
+        max-width: 100%;
+    }
+
+    .footer__platform {
+        width: 5vw;
+    }
+}
+
+@media (max-width: 376px) {
+    .header__burger input:checked ~ span:nth-of-type(3) {
+        transform: translateY(-3.95px) rotate(-45deg);
+    }
+
+    .header__burger input:checked ~ span:nth-of-type(1) {
+        transform: translateY(12px) rotate(45deg);
+    }
+
+    .header__burger {
+        width: 25px;
+        height: 20px;
+        gap: 4px;
+    }
+}

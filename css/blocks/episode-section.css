@@ -1,0 +1,87 @@
+.episode-section__header {
+    margin-top: 100.5px;
+    height: 99px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.episode-section__title {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 124%;
+    letter-spacing: 2.88px;
+}
+
+.episode-section__header .btn {
+    width: 178px;
+    margin-top: 23.56px;
+}
+
+.episode-section__cards {
+    margin-top: 40px;
+    height: 1689px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.episode-section__card {
+    background-color: #000000;
+    height: 545px;
+    border-radius: 32px;
+    display: flex;
+    gap: 53px;
+    padding: 40px;
+}
+
+.episode-section__img {
+    width: 389px;
+    object-fit: cover;
+}
+
+.episode-section__card-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 778px;
+    align-items: flex-start;
+}
+
+.episode-section__category  {
+    background-color: #191919;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    border-radius: 6px;
+    margin-bottom: 48.44px;
+    padding: 0 16px;
+}
+
+.episode-section__number {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 159%;
+    color: #118da8;
+    margin-bottom: 17.56px;
+}
+
+.episode-section__card-title {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 110%;
+    letter-spacing: 0.04em;
+    max-width: 700px;
+}
+
+.episode-section__description {
+    width: 757px;
+    margin-top: 28px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    color: #ffffffb3;
+}
+
+.episode-section__card .btn {
+    margin-top: auto;
+}

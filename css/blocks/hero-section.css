@@ -1,0 +1,50 @@
+.hero-section {
+    height: 943px;
+    margin-top: 160px;
+    display: flex;
+}
+
+.hero-section__host {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-section__arrow {
+    width: 112px;
+    height: 112px;
+    margin-top: 248.16px;
+}
+
+.hero-section__caption {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #118da8;
+}
+
+.hero-section__title {
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 122%;
+    letter-spacing: 0.04em;
+}
+
+.hero-section__description {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    color: #ffffffb3;
+}
+
+.hero-section__description--primary {
+    margin-top: 28px;
+}
+
+.hero-section__description--secondary {
+    margin-top: 33px;
+}
+
+.hero-section__img {
+    margin-top: 100px;
+}

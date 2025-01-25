@@ -1,0 +1,79 @@
+.form-section {
+    height: 387px;
+    background-color: #000000;
+    border-radius: 32px;
+    position: relative;
+    display: flex;
+    margin: 100px 0px;
+}
+
+.form-section__inscription-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.form-section__inscription {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #118da8;
+    margin-left: 60px;
+    margin-top: 59.12px;
+}
+
+.form-section__title {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 110%;
+    letter-spacing: 0.04em;
+    margin-left: 60px;
+}
+
+.form-section__decor {
+    width: 147px;
+    height: 91px;
+    position: absolute;
+    bottom: -26px;
+    left: -38px;
+}
+
+.form-section__form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-start;
+}
+
+.form-section__input {
+    border: 1px solid #191919;
+    border-radius: 6px;
+    max-width: 522px;
+    width: 100%;
+    background: #191919;
+    padding: 26px 20px;
+}
+
+input[type="text"], input[type="email"] {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.form-section__input--name {
+    margin-top: 60px;
+}
+
+.form-section__input--email {
+    margin-top: 20px;
+    margin-bottom: 29px;
+}

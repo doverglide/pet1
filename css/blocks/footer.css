@@ -1,0 +1,48 @@
+.footer {
+    padding-top: 100px;
+    margin-bottom: 100px;
+    height: 238px;
+    display: flex;
+}
+
+.footer__logo-and-socials {
+    max-width: 447px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.footer__logo {
+    width: 224px;
+    height: 46px;
+}
+
+.footer__socials {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 178px;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.footer__resources {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 178px;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.footer__platforms {
+    display: flex;
+    gap: 17px;
+}

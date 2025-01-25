@@ -1,0 +1,38 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #191919;
+    font-family: "DM Sans", sans-serif;
+    color: #ffffff;
+    overflow-x: hidden;
+}
+
+main, footer {
+    margin: 0px auto;
+    max-width: 1300px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: #118DA8;
+}
+
+.btn {
+    height: 51px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 159%;
+    color: #ffffff;
+    background-color: #118DA8;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 15px 12px 20px;
+    cursor: pointer;
+}
