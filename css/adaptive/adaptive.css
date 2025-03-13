@@ -367,51 +367,13 @@
         width: 20vw;
     }
 
-    .header__burger {
-        width: 35px;
-        height: 30px;
-        margin-right: 5.21vw;
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        gap: 8px;
-        cursor: pointer;
-    }
-
-    .header__burger:hover span{
-        background-color: #118DA8;
-    }
-
-    input[type=checkbox] {
-        display: none;
-    }
-
-    .header__burger span {
-        display: block;
-        height: 4px;
-        width: 100%;
-        background-color: white;
-        border-radius: 8px;
-        transition: .3s;
-    }
-
-    .header__burger input:checked ~ span:nth-of-type(1) {
-        transform: translateY(9.75px) rotate(45deg);
-    }
-
-    .header__burger input:checked ~ span:nth-of-type(2) {
-        opacity: 0;
-        width: 0%;
-    }
-
-    .header__burger input:checked ~ span:nth-of-type(3) {
-        transform: translateY(-13.95px) rotate(-45deg);
-    }
-
     .header__nav {
         display: none;
+        flex-direction: column;
         margin: 0;
         position: absolute;
+        top: 11.76vw;
+        left: 3.47vw;
         font-size: 2.34vw;
     }
 
@@ -455,9 +417,9 @@
     }
 }
 
-@media (max-width: 571px) {
+@media (max-width: 570px) {
     .header__nav {
-        font-size: 3.4vw;
+        font-size: 4.71vw;
     }
 
     .header__link:nth-child(1) {
@@ -465,7 +427,7 @@
     }
 }
 
-@media (max-width: 531px) {
+@media (max-width: 530px) {
     .header__logo {
         width: 30vw;
     }
@@ -522,7 +484,7 @@
     }
     
     .main-section__logo {
-        width: 4vw;
+        width: 5.88vw;
     }
 
     .episode-section__title {
@@ -534,8 +496,9 @@
     }
 
     .btn {
-        height: auto;
-        font-size: 2.64vw;
+        font-size: 3.76vw;
+        padding: 0vw 1.18vw;
+        height: 5.88vw;
     }
 
     .episode-section__card {
@@ -552,13 +515,37 @@
         width: 85vw;
     }
 
+    .episode-section__category {
+        font-size: 4.71vw;
+    }
+
+    .episode-section__number {
+        font-size: 4.71vw;
+    }
+
+    .episode-section__card-title {
+        font-size: 5.65vw;
+    }
+
     .episode-section__description {
-        font-size: 3.02vw;
+        font-size: 3.76vw;
         width: 85vw;
+    }
+
+    .episode-section__card .btn {
+        margin-top: 2.35vw;
     }
 
     .hero-section {
         flex-direction: column;
+    }
+
+    .hero-section__caption {
+        font-size: 4.71vw;
+    }
+
+    .hero-section__title {
+        font-size: 5.65vw;
     }
 
     .hero-section__arrow {
@@ -567,7 +554,7 @@
     }
 
     .hero-section__description {
-        font-size: 3.02vw;
+        font-size: 3.76vw;
     }
 
     .hero-section__img {
@@ -591,6 +578,7 @@
 
     .form-section__form {
         width: auto;
+        gap: 2.82vw;
     }
 
     .form-section__title {
@@ -599,10 +587,11 @@
 
     .form-section__inscription {
         margin: 0;
+        font-size: 4.71vw;
     }
 
     input[type="text"], input[type="email"] {
-        font-size: 3.02vw;
+        font-size: 3.76vw;
         width: 96%;
     }
 
@@ -610,12 +599,21 @@
         bottom: -3vw;
     }
 
+    .reviews-section {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .reviews-section__card {
+        max-width: 100%;
+    }
+
     .reviews-section__star {
-        width: 2.5vw;
+        width: 3.76vw;
     }
 
     .reviews-section__review, .reviews-section__author {
-        font-size: 3.02vw;
+        font-size: 3.76vw;
+        max-width: 80%;
     }
 
     .footer {
@@ -629,31 +627,15 @@
     }
 
     .footer__social-link {
-        width: 5vw;
+        width: 5.88vw;
     }
 
     .footer__nav, .footer__resources {
-        font-size: 3.77vw;
+        font-size: 4.71vw;
         max-width: 100%;
     }
 
     .footer__platform {
-        width: 5vw;
-    }
-}
-
-@media (max-width: 376px) {
-    .header__burger input:checked ~ span:nth-of-type(3) {
-        transform: translateY(-3.95px) rotate(-45deg);
-    }
-
-    .header__burger input:checked ~ span:nth-of-type(1) {
-        transform: translateY(12px) rotate(45deg);
-    }
-
-    .header__burger {
-        width: 25px;
-        height: 20px;
-        gap: 4px;
+        width: 5.88vw;
     }
 }

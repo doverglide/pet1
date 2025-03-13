@@ -1,0 +1,15 @@
+.active {
+    display: block !important;
+}
+
+.activeMenu {
+    display: flex !important;
+}
+
+.disabled {
+    display: none;
+}
+
+.marginMainSection {
+    margin-top: 28.24vw;
+}

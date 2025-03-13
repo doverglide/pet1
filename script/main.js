@@ -1,30 +1,20 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const checkBox = document.getElementById("header__burger");
-    const nav = document.querySelector(".header__nav");
-    const header = document.querySelector(".header");
+    const openBtn = document.querySelector('.header__burger-menu');
+    const closeBtn = document.querySelector('.header__close-btn');
+    const menu = document.querySelector('.header__nav');
+    const mainSection = document.querySelector('.main-section');
 
-    checkBox.addEventListener("change", () => {
-        if (checkBox.checked) {
-            nav.style.display = 'flex';
-            nav.style.flexDirection = 'column';
-            nav.style.marginLeft = '3.47vw';
-            nav.style.marginTop = '28.65vw';
-            header.style.marginBottom = '22.5vw';
-        } else {
-            nav.style.display = 'none';
-            header.style.marginBottom = '0';
-        }
+    openBtn.addEventListener('click', function() {
+        openBtn.classList.toggle('disabled');
+        closeBtn.classList.toggle('active');
+        menu.classList.toggle('activeMenu');
+        mainSection.classList.toggle('marginMainSection');
     });
 
-    window.addEventListener('resize', () => {
-        if (window.innerWidth > 768) {
-            nav.style.display = 'flex';
-            nav.style.flexDirection = 'row';
-            nav.style.marginLeft = '0';
-            nav.style.marginTop = '0';
-            header.style.marginBottom = '0';
-        } else {
-            nav.style.display = checkBox.checked ? 'flex' : 'none';
-        }
-    });
+    closeBtn.addEventListener('click', function() {
+        closeBtn.classList.toggle('active');
+        openBtn.classList.toggle('disabled');
+        menu.classList.toggle('activeMenu');
+        mainSection.classList.toggle('marginMainSection');
+    })
 });
