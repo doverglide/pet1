@@ -1,7 +1,6 @@
 /* Base */
 @import url(../css/base/base.css);
 @import url(../css/base/normalize.css);
-@import url(../css/base/activeElements.css);
 
 /* Blocks */
 @import url(../css/blocks/header.css);

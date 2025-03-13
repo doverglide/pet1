@@ -20,10 +20,27 @@
 }
 
 .header__burger-menu {
+    display: none;
     margin-right: 3.47vw;
 }
 
 .header__close-btn {
     display: none;
     margin-right: 3.47vw;
+}
+
+.active {
+    display: block;
+}
+
+.activeMenu {
+    display: flex;
+}
+
+.disabled {
+    display: none;
+}
+
+.marginMainSection {
+    margin-top: 28.24vw;
 }

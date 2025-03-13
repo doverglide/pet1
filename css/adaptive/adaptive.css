@@ -367,6 +367,10 @@
         width: 20vw;
     }
 
+    .header__burger-menu {
+        display: block;
+    }
+
     .header__nav {
         display: none;
         flex-direction: column;
@@ -638,4 +642,20 @@
     .footer__platform {
         width: 5.88vw;
     }
+}
+
+.active {
+    display: block;
+}
+
+.activeMenu {
+    display: flex;
+}
+
+.disabled {
+    display: none;
+}
+
+.marginMainSection {
+    margin-top: 28.24vw;
 }
